@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 210 20% 98%;
+    --secondary-foreground: 222.2 84% 4.9%;
+
+    --muted: 210 20% 98%;
+    --muted-foreground: 222.2 47.4% 20%;
+
+    --accent: 210 20% 98%;
+    --accent-foreground: 222.2 84% 4.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 214.3 31.6% 91.4%;
+    --input: 214.3 31.6% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 20% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 226 57.1% 20%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 210 20% 98%;
+    --primary-foreground: 222.2 84% 4.9%;
+
+    --secondary: 217.2 32.4% 14.8%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 217.2 32.4% 14.8%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.4% 14.8%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 217.2 32.4% 14.8%;
+    --input: 217.2 32.4% 14.8%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-purple-600 text-purple-50 hover:bg-purple-600/90;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-slate-100 text-slate-900 hover:bg-slate-200;
+  }
+  .card-hover {
+    @apply transition duration-200 ease-in-out transform hover:scale-[1.02];
+  }
+}
+
+@layer utilities {
+  .animate-in {
+    animation: animate-in 0.5s ease-out;
+  }
+
+  @keyframes animate-in {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Custom class for chart container */
+.chart-container {
+  width: 100%;
+  height: auto; /* Allow height to be determined by content */
+  min-height: 0; /* Allow shrinking in flex/grid */
+  overflow: visible; /* Ensure legend is not cut off */
+}
+
+/* Explicitly style focused inputs to remove potential default yellow highlight */
+input:focus {
+  outline: 2px solid var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary);
+}
+
+/* Override the default focus ring color set in the component if necessary */
+.focus\:ring-emerald-500:focus {
+    --tw-ring-color: #10B981 !important; /* emerald-500 */
+}
+
+/* Ensure placeholder text color is black in light mode and white in dark mode */
+body input::placeholder {
+  color: theme('colors.black') !important;
+}
+
+.dark body input::placeholder {
+  color: theme('colors.white') !important;
+}

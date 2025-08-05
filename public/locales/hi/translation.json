@@ -1,0 +1,150 @@
+{
+    "hero": {
+      "subtitle_small": "एआई-समर्थित पोषण विश्लेषण",
+      "title_decode": "डिकोड करें",
+      "title_your_labels": "अपने फूड लेबल्स",
+      "title_with": "के साथ",
+      "title_smart_ai": "स्मार्ट एआई",
+      "description": "किसी भी फूड लेबल को उपयोगी स्वास्थ्य जानकारी में बदलें। अपलोड करें, स्कैन करें और जानें कि आपके खाने में वास्तव में क्या है, अत्याधुनिक OCR और AI तकनीक के साथ।",
+      "cta_button": "अभी स्कैनिंग शुरू करें",
+      "feature_smart_ocr_title": "स्मार्ट OCR",
+      "feature_smart_ocr_description": "किसी भी फूड लेबल से उन्नत टेक्स्ट एक्सट्रैक्शन",
+      "feature_ai_insights_title": "एआई इनसाइट्स",
+      "feature_ai_insights_description": "स्मार्ट विश्लेषण के लिए उन्नत एआई द्वारा संचालित",
+      "feature_multi_language_title": "बहुभाषी समर्थन",
+      "feature_multi_language_description": "हिंदी, तमिल, बांग्ला, मराठी और अन्य प्रमुख भारतीय भाषाओं का समर्थन करता है।"
+    },
+    "features": {
+      "section_title_powerful": "शक्तिशाली",
+      "section_title_features": "विशेषताएँ",
+      "section_description": "जानिए क्यों NutriScan सबसे उन्नत पोषण लेबल विश्लेषक है, जो अत्याधुनिक एआई और OCR तकनीक से संचालित है।",
+      "lightning_fast": {
+        "title": "बिजली जैसी तेज़",
+        "description": "लेबल से सेकंडों में टेक्स्ट निकालें"
+      },
+      "ai_powered_analysis": {
+        "title": "एआई-संचालित विश्लेषण",
+        "description": "उन्नत एआई से पोषण की समझ और व्यक्तिगत स्वास्थ्य सुझाव प्राप्त करें।",
+        "details": {
+          "nutrient_breakdown": "पोषक तत्वों का विश्लेषण",
+          "health_impact": "स्वास्थ्य पर प्रभाव का आकलन",
+          "dietary_recommendations": "आहार संबंधी सिफारिशें"
+        }
+      },
+      "interactive_visualizations": {
+        "title": "इंटरैक्टिव विज़ुअलाइज़ेशन",
+        "description": "खूबसूरत चार्ट और ग्राफ आपको पोषण संबंधी जानकारी तुरंत समझने में मदद करते हैं।",
+        "details": {
+          "macro_micronutrient": "मैक्रो/माइक्रोन्यूट्रिएंट चार्ट",
+          "daily_intake": "दैनिक सेवन की तुलना",
+          "progress_tracking": "प्रगति ट्रैकिंग"
+        }
+      },
+      "multi_language_support": {
+        "title": "बहुभाषी समर्थन",
+        "description": "हिंदी, तमिल, बांग्ला, मराठी और अन्य प्रमुख भारतीय भाषाओं का समर्थन करता है।",
+        "details": {
+          "hindi": "हिंदी भाषा समर्थन",
+          "regional": "क्षेत्रीय भाषा विकल्प",
+          "localized": "स्थानीयकृत सिफारिशें"
+        }
+      },
+      "mobile_first_design": {
+        "title": "मोबाइल-प्रथम डिज़ाइन",
+        "description": "पूरी तरह उत्तरदायी इंटरफ़ेस जो मोबाइल से डेस्कटॉप तक सभी डिवाइसेज़ पर बेहतरीन काम करता है।",
+        "details": {
+          "touch_friendly": "टच-अनुकूल इंटरफ़ेस",
+          "optimized_camera": "मोबाइल कैमरा के लिए अनुकूलित",
+          "cross_platform": "क्रॉस-प्लेटफ़ॉर्म संगतता"
+        }
+      },
+      "privacy_security": {
+        "title": "गोपनीयता और सुरक्षा",
+        "description": "आपकी फूड लेबल इमेज और व्यक्तिगत डेटा को सुरक्षित और निजी रूप से प्रोसेस किया जाता है।",
+        "details": {
+          "secure_processing": "सुरक्षित इमेज प्रोसेसिंग",
+          "no_data_storage": "डेटा संग्रहण नहीं",
+          "privacy_first": "गोपनीयता प्राथमिकता है"
+        }
+      },
+      "cta_heading": "क्या आप अपने पोषण इनसाइट्स खोलने के लिए तैयार हैं?",
+      "cta_description": "NutriScan के साथ हजारों लोग अब स्वस्थ खाने के फैसले ले रहे हैं।",
+      "cta_button": "अभी स्कैनिंग शुरू करें"
+    },
+    "footer": {
+      "brand": {
+        "description": "एआई-समर्थित इनसाइट्स और स्मार्ट OCR तकनीक के साथ पोषण लेबल को समझने का तरीका बदल रहा है। आसानी से सूचित भोजन विकल्प बनाएं।",
+        "social": {
+          "twitter": "ट्विटर",
+          "github": "गिटहब",
+          "linkedin": "लिंक्डइन"
+        }
+      },
+      "quick_links": {
+        "heading": "उत्पाद",
+        "features": "विशेषताएँ",
+        "scanner": "स्कैनर",
+        "api": "एपीआई",
+        "pricing": "मूल्य निर्धारण"
+      },
+      "support_links": {
+        "heading": "सहायता",
+        "help_center": "हेल्प सेंटर",
+        "contact_us": "संपर्क करें",
+        "privacy_policy": "गोपनीयता नीति",
+        "terms_of_service": "सेवा की शर्तें"
+      },
+      "copyright": "© {{year}} NutriScan. सर्वाधिकार सुरक्षित।"
+    },
+    "navbar": {
+      "links": {
+        "home": "होम",
+        "features": "विशेषताएँ",
+        "scanner": "स्कैनर",
+        "about": "हमारे बारे में"
+      },
+      "get_started": "शुरू करें"
+    },
+    "scanner": {
+      "section_title_scan": "स्कैन करें",
+      "section_title_your_label": "अपना फूड लेबल",
+      "section_description": "किसी भी पोषण लेबल की इमेज अपलोड करें और हमारा एआई आपके लिए पोषण संबंधी जानकारी निकाल और विश्लेषण करेगा।",
+      "upload_card_title": "फूड लेबल अपलोड करें",
+      "upload_area": {
+        "drop_image": "अपनी इमेज यहां छोड़ें",
+        "or_click": "या ब्राउज़ करने के लिए क्लिक करें",
+        "choose_image_button": "इमेज चुनें",
+        "supported_formats": "समर्थित: JPEG, PNG (अधिकतम 10MB)"
+      },
+      "uploaded_image_alt": "अपलोड किया गया पोषण लेबल",
+      "scan_button": {
+        "scanning": "स्कैन हो रहा है...",
+        "scan_label": "लेबल स्कैन करें"
+      },
+      "clear_button": "हटाएं",
+      "extracted_info_card_title": "निकाली गई जानकारी",
+      "extracted_info_placeholder": "जानकारी देखने के लिए लेबल अपलोड और स्कैन करें",
+      "processing_message": "आपकी इमेज प्रोसेस की जा रही है...",
+      "feature_highly_accurate_title": "बेहद सटीक",
+      "feature_highly_accurate_description": "सटीक परिणामों के लिए उन्नत OCR तकनीक"
+    },
+    "toast": {
+      "file_too_large": {
+        "title": "फाइल बहुत बड़ी है",
+        "description": "कृपया 10MB से छोटी इमेज चुनें"
+      },
+      "upload_success": {
+        "title": "इमेज सफलतापूर्वक अपलोड हुई!",
+        "description": "'लेबल स्कैन करें' पर क्लिक करें पोषण जानकारी निकालने के लिए"
+      },
+      "scan_success": {
+        "title": "लेबल सफलतापूर्वक स्कैन हुआ!",
+        "description": "पोषण जानकारी निकाल ली गई है"
+      },
+      "ocr_failed": {
+        "title": "OCR विफल",
+        "description": "इमेज से टेक्स्ट निकाला नहीं जा सका।"
+      }
+    }
+  }
+  

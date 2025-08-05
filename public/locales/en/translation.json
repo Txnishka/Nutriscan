@@ -1,0 +1,149 @@
+{
+  "hero": {
+    "subtitle_small": "AI-Powered Nutrition Analysis",
+    "title_decode": "Decode",
+    "title_your_labels": "Your Food Labels",
+    "title_with": "with",
+    "title_smart_ai": "Smart AI",
+    "description": "Transform any food label into actionable health insights. Upload, scan, and discover what's really in your food with our cutting-edge OCR and AI technology.",
+    "cta_button": "Start Scanning Now",
+    "feature_smart_ocr_title": "Smart OCR",
+    "feature_smart_ocr_description": "Advanced text extraction from any food label",
+    "feature_ai_insights_title": "AI Insights",
+    "feature_ai_insights_description": "Powered by advanced AI for smart analysis",
+    "feature_multi_language_title": "Multi-Language",
+    "feature_multi_language_description": "Supports major Indian languages including Hindi, Tamil, Bengali, Marathi, and more."
+  },
+  "features": {
+    "section_title_powerful": "Powerful",
+    "section_title_features": "Features",
+    "section_description": "Discover why NutriScan is the most advanced nutrition label interpreter available, powered by cutting-edge AI and OCR technology.",
+    "lightning_fast": {
+      "title": "Lightning Fast",
+      "description": "Extract text from labels in seconds"
+    },
+    "ai_powered_analysis": {
+      "title": "AI-Powered Analysis",
+      "description": "Advanced AI provides intelligent nutritional insights and personalized health recommendations.",
+      "details": {
+        "nutrient_breakdown": "Nutrient breakdown analysis",
+        "health_impact": "Health impact assessment",
+        "dietary_recommendations": "Dietary recommendations"
+      }
+    },
+    "interactive_visualizations": {
+      "title": "Interactive Visualizations",
+      "description": "Beautiful charts and graphs help you understand nutritional information at a glance.",
+      "details": {
+        "macro_micronutrient": "Macro/micronutrient charts",
+        "daily_intake": "Daily intake comparisons",
+        "progress_tracking": "Progress tracking"
+      }
+    },
+    "multi_language_support": {
+      "title": "Multi-Language Support",
+      "description": "Supports major Indian languages including Hindi, Tamil, Bengali, Marathi, and more.",
+      "details": {
+        "hindi": "Hindi language support",
+        "regional": "Regional language options",
+        "localized": "Localized recommendations"
+      }
+    },
+    "mobile_first_design": {
+      "title": "Mobile-First Design",
+      "description": "Fully responsive interface works perfectly on all devices from mobile to desktop.",
+      "details": {
+        "touch_friendly": "Touch-friendly interface",
+        "optimized_camera": "Optimized for mobile cameras",
+        "cross_platform": "Cross-platform compatibility"
+      }
+    },
+    "privacy_security": {
+      "title": "Privacy & Security",
+      "description": "Your food label images and personal data are processed securely and privately.",
+      "details": {
+        "secure_processing": "Secure image processing",
+        "no_data_storage": "No data storage",
+        "privacy_first": "Privacy-first approach"
+      }
+    },
+    "cta_heading": "Ready to unlock your nutrition insights?",
+    "cta_description": "Join thousands of users who are making healthier food choices with NutriScan.",
+    "cta_button": "Start Scanning Now"
+  },
+  "footer": {
+    "brand": {
+      "description": "Revolutionizing how you understand nutrition labels with AI-powered insights and smart OCR technology. Make informed food choices effortlessly.",
+      "social": {
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+      }
+    },
+    "quick_links": {
+      "heading": "Product",
+      "features": "Features",
+      "scanner": "Scanner",
+      "api": "API",
+      "pricing": "Pricing"
+    },
+    "support_links": {
+      "heading": "Support",
+      "help_center": "Help Center",
+      "contact_us": "Contact Us",
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service"
+    },
+    "copyright": "© {{year}} NutriScan. All rights reserved."
+  },
+  "navbar": {
+    "links": {
+      "home": "Home",
+      "features": "Features",
+      "scanner": "Scanner",
+      "about": "About"
+    },
+    "get_started": "Get Started"
+  },
+  "scanner": {
+    "section_title_scan": "Scan",
+    "section_title_your_label": "Your Food Label",
+    "section_description": "Upload an image of any nutrition label and let our AI extract and analyze the nutritional information for you.",
+    "upload_card_title": "Upload Food Label",
+    "upload_area": {
+      "drop_image": "Drop your image here",
+      "or_click": "or click to browse",
+      "choose_image_button": "Choose Image",
+      "supported_formats": "Supports: JPEG, PNG (Max 10MB)"
+    },
+    "uploaded_image_alt": "Uploaded nutrition label",
+    "scan_button": {
+      "scanning": "Scanning...",
+      "scan_label": "Scan Label"
+    },
+    "clear_button": "Clear",
+    "extracted_info_card_title": "Extracted Information",
+    "extracted_info_placeholder": "Upload and scan a label to see extracted text here",
+    "processing_message": "Processing your image...",
+    "feature_highly_accurate_title": "Highly Accurate",
+    "feature_highly_accurate_description": "Advanced OCR technology for precise results"
+  },
+  "toast": {
+    "file_too_large": {
+      "title": "File too large",
+      "description": "Please select an image smaller than 10MB"
+    },
+    "upload_success": {
+      "title": "Image uploaded successfully!",
+      "description": "Click 'Scan Label' to extract nutrition information"
+    },
+    "scan_success": {
+      "title": "Label scanned successfully!",
+      "description": "Nutrition information has been extracted"
+    },
+    "ocr_failed": {
+      "title": "OCR failed",
+      "description": "Could not extract text from the image."
+    }
+  }
+} 

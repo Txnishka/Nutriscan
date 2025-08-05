@@ -1,0 +1,140 @@
+{
+    "hero": {
+      "subtitle_small": "एआय-सक्षम पोषण विश्लेषण",
+      "title_decode": "उलगडा",
+      "title_your_labels": "तुमच्या फूड लेबल्सचा",
+      "title_with": "सह",
+      "title_smart_ai": "स्मार्ट एआय",
+      "description": "कोणतेही अन्न लेबल कृतीक्षम आरोग्य अंतर्दृष्टीमध्ये रूपांतरित करा. आमच्या अत्याधुनिक ओसीआर आणि एआय तंत्रज्ञानासह अपलोड करा, स्कॅन करा आणि जाणून घ्या तुमच्या अन्नामध्ये काय आहे.",
+      "cta_button": "आता स्कॅनिंग सुरू करा",
+      "feature_smart_ocr_title": "स्मार्ट ओसीआर",
+      "feature_smart_ocr_description": "कोणत्याही अन्न लेबलमधून प्रगत मजकूर अर्क",
+      "feature_ai_insights_title": "एआय अंतर्दृष्टी",
+      "feature_ai_insights_description": "स्मार्ट विश्लेषणासाठी प्रगत एआयद्वारे समर्थित",
+      "feature_multi_language_title": "बहुभाषिक समर्थन",
+      "feature_multi_language_description": "हिंदी, तमिळ, बंगाली, मराठी यांसारख्या प्रमुख भारतीय भाषा समर्थित"
+    },
+    "features": {
+      "section_title_powerful": "शक्तिशाली",
+      "section_title_features": "वैशिष्ट्ये",
+      "section_description": "NutriScan हे एआय आणि ओसीआर तंत्रज्ञानाने समर्थित सर्वात प्रगत पोषण लेबल इंटरप्रिटर का आहे ते जाणून घ्या.",
+      "lightning_fast": {
+        "title": "अत्यंत जलद",
+        "description": "सेकंदात लेबलमधून मजकूर काढा"
+      },
+      "ai_powered_analysis": {
+        "title": "एआय समर्थित विश्लेषण",
+        "description": "प्रगत एआय पोषण अंतर्दृष्टी आणि वैयक्तिकृत आरोग्य शिफारसी प्रदान करते.",
+        "details": {
+          "nutrient_breakdown": "पोषकतत्त्वांचे विश्लेषण",
+          "health_impact": "आरोग्यावर परिणामाचे मूल्यांकन",
+          "dietary_recommendations": "आहाराच्या शिफारसी"
+        }
+      },
+      "interactive_visualizations": {
+        "title": "इंटरएक्टिव्ह दृश्ये",
+        "description": "सुंदर चार्ट आणि ग्राफ्समुळे पोषण माहिती सहज समजते.",
+        "details": {
+          "macro_micronutrient": "मॅक्रो/मायक्रोन्युट्रिएंट चार्ट",
+          "daily_intake": "दैनंदिन सेवन तुलना",
+          "progress_tracking": "प्रगतीचा मागोवा"
+        }
+      },
+      "multi_language_support": {
+        "title": "बहुभाषिक समर्थन",
+        "description": "हिंदी, तमिळ, बंगाली, मराठी यांसारख्या प्रमुख भारतीय भाषा समर्थित",
+        "details": {
+          "hindi": "हिंदी भाषेचे समर्थन",
+          "regional": "प्रादेशिक भाषांचे पर्याय",
+          "localized": "स्थानिक शिफारसी"
+        }
+      },
+      "mobile_first_design": {
+        "title": "मोबाईल-प्रथम डिझाइन",
+        "description": "पूर्णपणे प्रतिसादक्षम इंटरफेस मोबाइलपासून डेस्कटॉपपर्यंत सर्व उपकरणांवर उत्तम प्रकारे कार्य करतो.",
+        "details": {
+          "touch_friendly": "टचसाठी अनुकूल इंटरफेस",
+          "optimized_camera": "मोबाइल कॅमेऱ्यासाठी अनुकूलित",
+          "cross_platform": "क्रॉस-प्लॅटफॉर्म सुसंगतता"
+        }
+      },
+      "privacy_security": {
+        "title": "गोपनीयता आणि सुरक्षा",
+        "description": "तुमच्या अन्न लेबल प्रतिमा आणि वैयक्तिक डेटा सुरक्षित आणि खाजगीरित्या प्रक्रिया केले जातात.",
+        "details": {
+          "secure_processing": "सुरक्षित प्रतिमा प्रक्रिया",
+          "no_data_storage": "डेटा साठवणूक नाही",
+          "privacy_first": "गोपनीयतेला प्राधान्य"
+        }
+      },
+      "cta_heading": "तुमचे पोषण अंतर्दृष्टी उघडण्यास तयार आहात का?",
+      "cta_description": "NutriScan सह हजारो वापरकर्त्यांमध्ये सामील व्हा जे अधिक आरोग्यदायी अन्न निवडी करत आहेत.",
+      "cta_button": "आता स्कॅनिंग सुरू करा"
+    },
+    "scanner": {
+      "section_title_scan": "स्कॅन",
+      "section_title_your_label": "तुमचे अन्न लेबल",
+      "section_description": "कोणत्याही पोषण लेबलची प्रतिमा अपलोड करा आणि आमचा एआय त्यामधून पोषण माहिती कशी काढतो हे पाहा.",
+      "upload_card_title": "अन्न लेबल अपलोड करा",
+      "upload_area": {
+        "drop_image": "प्रतिमा येथे ड्रॉप करा",
+        "or_click": "किंवा ब्राउझ करण्यासाठी क्लिक करा",
+        "choose_image_button": "प्रतिमा निवडा",
+        "supported_formats": "समर्थित: JPEG, PNG (कमाल 10MB)"
+      },
+      "uploaded_image_alt": "अपलोड केलेले पोषण लेबल",
+      "scan_button": {
+        "scanning": "स्कॅन करत आहे...",
+        "scan_label": "लेबल स्कॅन करा"
+      },
+      "clear_button": "क्लिअर",
+      "extracted_info_card_title": "काढलेली माहिती",
+      "extracted_info_placeholder": "माहिती पाहण्यासाठी लेबल अपलोड करून स्कॅन करा",
+      "processing_message": "तुमची प्रतिमा प्रक्रिया होत आहे...",
+      "feature_highly_accurate_title": "अत्यंत अचूक",
+      "feature_highly_accurate_description": "अचूक परिणामांसाठी प्रगत ओसीआर तंत्रज्ञान"
+    },
+    "toast": {
+      "file_too_large": {
+        "title": "फाइल खूप मोठी आहे",
+        "description": "कृपया 10MB पेक्षा लहान प्रतिमा निवडा"
+      },
+      "upload_success": {
+        "title": "प्रतिमा यशस्वीपणे अपलोड झाली!",
+        "description": "'लेबल स्कॅन करा' वर क्लिक करा"
+      },
+      "scan_success": {
+        "title": "लेबल यशस्वीपणे स्कॅन झाले!",
+        "description": "पोषण माहिती काढलेली आहे"
+      },
+      "ocr_failed": {
+        "title": "ओसीआर अयशस्वी",
+        "description": "प्रतिमेतून मजकूर काढता आला नाही."
+      }
+    },
+    "footer": {
+      "brand": {
+        "description": "एआय-सक्षम अंतर्दृष्टी आणि स्मार्ट ओसीआर तंत्रज्ञानाद्वारे पोषण लेबल समजावून घेण्याच्या पद्धतीत आमूलाग्र बदल. अन्न निवड सुलभ करा.",
+        "social": {
+          "twitter": "ट्विटर",
+          "github": "गिटहब",
+          "linkedin": "लिंक्डइन"
+        }
+      },
+      "quick_links": {
+        "heading": "उत्पादन",
+        "features": "वैशिष्ट्ये",
+        "scanner": "स्कॅनर",
+        "api": "एपीआय",
+        "pricing": "किंमत"
+      },
+      "support_links": {
+        "heading": "सहाय्य",
+        "help_center": "मदत केंद्र",
+        "contact_us": "आमच्याशी संपर्क साधा",
+        "privacy_policy": "गोपनीयता धोरण",
+        "terms_of_service": "सेवा अटी"
+      },
+      "copyright": "© {{year}} NutriScan. सर्व हक्क राखीव."
+    }
+  }

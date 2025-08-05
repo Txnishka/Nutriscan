@@ -1,0 +1,138 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255; /* Pure white */
+    --foreground: 15 23 42; /* Slate 900 */
+
+    --card: 255 255 255;
+    --card-foreground: 15 23 42;
+
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
+
+    --primary: 34 197 94; /* Emerald 500 */
+    --primary-foreground: 255 255 255;
+
+    --secondary: 248 250 252; /* Slate 50 */
+    --secondary-foreground: 30 41 59; /* Slate 700 */
+
+    --muted: 248 250 252; /* Slate 50 */
+    --muted-foreground: 100 116 139; /* Slate 500 */
+
+    --accent: 59 130 246; /* Blue 500 */
+    --accent-foreground: 255 255 255;
+
+    --destructive: 239 68 68; /* Red 500 */
+    --destructive-foreground: 255 255 255;
+
+    --border: 226 232 240; /* Slate 200 */
+    --input: 226 232 240;
+    --ring: 34 197 94; /* Emerald 500 */
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 2 6 23; /* Very dark blue */
+    --foreground: 248 250 252; /* Slate 50 */
+
+    --card: 15 23 42; /* Slate 900 */
+    --card-foreground: 248 250 252;
+
+    --popover: 15 23 42;
+    --popover-foreground: 248 250 252;
+
+    --primary: 34 197 94; /* Emerald 500 */
+    --primary-foreground: 255 255 255;
+
+    --secondary: 30 41 59; /* Slate 700 */
+    --secondary-foreground: 248 250 252;
+
+    --muted: 30 41 59;
+    --muted-foreground: 148 163 184; /* Slate 400 */
+
+    --accent: 59 130 246; /* Blue 500 */
+    --accent-foreground: 255 255 255;
+
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+
+    --border: 51 65 85; /* Slate 600 */
+    --input: 51 65 85;
+    --ring: 34 197 94;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-emerald-500 to-emerald-600 text-white hover:from-emerald-600 hover:to-emerald-700 px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg shadow-emerald-500/25;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg shadow-blue-500/25;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:shadow-emerald-500/10;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-emerald-500 via-blue-500 to-purple-500 bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/10 border border-white/20 shadow-lg;
+  }
+
+  .hero-gradient {
+    @apply bg-gradient-to-br from-slate-50 via-slate-100 to-slate-50;
+  }
+
+  .dark .hero-gradient {
+    @apply bg-gradient-to-br from-slate-900 via-blue-950 to-slate-950;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+ @apply bg-blue-500 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ @apply bg-blue-600;
+}
+
+.dark ::-webkit-scrollbar-track {
+  @apply bg-slate-800;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+ @apply bg-blue-700;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-800;
+}
